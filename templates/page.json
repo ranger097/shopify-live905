@@ -80,6 +80,15 @@
         "padding_bottom": 52
       }
     },
+    "custom_liquid_xYA46a": {
+      "type": "custom-liquid",
+      "settings": {
+        "custom_liquid": "{% unless page.title == 'not-liquid' %}\n\nthe title is not liquid \n{% endunless%}",
+        "color_scheme": "",
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
     "rich_text_rMtQnM": {
       "type": "rich-text",
       "blocks": {
@@ -112,10 +121,10 @@
         "padding_bottom": 52
       }
     },
-    "custom_liquid_xYA46a": {
+    "custom_liquid_tWreV3": {
       "type": "custom-liquid",
       "settings": {
-        "custom_liquid": "{% unless page.title == 'not-liquid' %}\n\nthe title is not liquid \n{% endunless%}",
+        "custom_liquid": "{",
         "color_scheme": "",
         "padding_top": 40,
         "padding_bottom": 52
@@ -128,8 +137,9 @@
     "custom_liquid_eXgieV",
     "rich_text_w9jndf",
     "custom_liquid_33xXjb",
+    "custom_liquid_xYA46a",
     "rich_text_rMtQnM",
     "custom_liquid_cFf6Bz",
-    "custom_liquid_xYA46a"
+    "custom_liquid_tWreV3"
   ]
 }
