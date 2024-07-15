@@ -1,3 +1,12 @@
+/*
+* ------------------------------------------------------------
+* IMPORTANT: The contents of this file are auto-generated.
+*
+* This file may be updated by the Shopify admin theme editor
+* or related systems. Please exercise caution as any changes
+* made to this file may be overwritten.
+* ------------------------------------------------------------
+*/
 {
   "sections": {
     "main": {
@@ -6,9 +15,131 @@
         "padding_top": 28,
         "padding_bottom": 28
       }
+    },
+    "rich_text_R3ppVm": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_zwVpU8": {
+          "type": "heading",
+          "settings": {
+            "heading": "object",
+            "heading_size": "h0"
+          }
+        }
+      },
+      "block_order": [
+        "heading_zwVpU8"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
+    "custom_liquid_eXgieV": {
+      "type": "custom-liquid",
+      "settings": {
+        "custom_liquid": "{{page.title}}",
+        "color_scheme": "",
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
+    "rich_text_w9jndf": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_raK9K4": {
+          "type": "heading",
+          "settings": {
+            "heading": "Tag",
+            "heading_size": "h1"
+          }
+        }
+      },
+      "block_order": [
+        "heading_raK9K4"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
+    "custom_liquid_33xXjb": {
+      "type": "custom-liquid",
+      "settings": {
+        "custom_liquid": "{% if page.title == 'liquid'%}\n\nyes, the title is liquid\n\n{% endif %}",
+        "color_scheme": "",
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
+    "custom_liquid_xYA46a": {
+      "type": "custom-liquid",
+      "settings": {
+        "custom_liquid": "{% unless page.title == 'not-liquid' %}\n\nthe title is not liquid \n{% endunless%}",
+        "color_scheme": "",
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
+    "rich_text_rMtQnM": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_KhEc3C": {
+          "type": "heading",
+          "settings": {
+            "heading": "Filter",
+            "heading_size": "h1"
+          }
+        }
+      },
+      "block_order": [
+        "heading_KhEc3C"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
+    "custom_liquid_cFf6Bz": {
+      "type": "custom-liquid",
+      "settings": {
+        "custom_liquid": "{{ 'hello world' | capitalize }}",
+        "color_scheme": "",
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
+    "custom_liquid_tWreV3": {
+      "type": "custom-liquid",
+      "settings": {
+        "custom_liquid": "{",
+        "color_scheme": "",
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
     }
   },
   "order": [
-    "main"
+    "main",
+    "rich_text_R3ppVm",
+    "custom_liquid_eXgieV",
+    "rich_text_w9jndf",
+    "custom_liquid_33xXjb",
+    "custom_liquid_xYA46a",
+    "rich_text_rMtQnM",
+    "custom_liquid_cFf6Bz",
+    "custom_liquid_tWreV3"
   ]
 }
